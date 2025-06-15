@@ -1,7 +1,7 @@
 # masaihackthon
 ## One
   open folder with vs code
-  ->go to terminal and use   -> cd hackathon <br>
+  ->go to terminal 
   then
  for installing all installation dependencies <br>
 ->pip install -r requirements.txt 
