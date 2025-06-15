@@ -145,3 +145,25 @@ if uploaded_file:
         file_name="churn_predictions.csv",
         mime="text/csv"
     )
+
+
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <a href="https://drive.google.com/file/d/1v0c36TtF8vpndTHJPf-t_ACUC8U1dDUW/view?usp=sharing" target="_blank">
+            <button style="
+                background-color: red;
+                color: white;
+                padding: 20px 40px;
+                font-size: 24px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+            ">
+                for video presentation
+            </button>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
